@@ -1,0 +1,30 @@
+.header{
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        padding: 27px 0;
+        align-items: center;
+    }
+    &__logo{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    &__ul{
+        display: flex;
+        column-gap: 30px;
+        a{
+            text-decoration: none;
+            color: #22262A;
+            font-size: 18px ;
+        }
+    }
+    &__img{
+        width: 148px;
+        img{
+            width: 18px;
+        }
+        .heartLogo{
+            margin: 0 47px;
+        }
+    }
+}

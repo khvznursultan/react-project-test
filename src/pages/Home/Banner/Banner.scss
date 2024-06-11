@@ -1,0 +1,37 @@
+.banner{
+    background: url('./assets/08ae1b1db8a3447b4d04646e824f7594.jpg')center/cover no-repeat;
+    height: 745px;
+    &__container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+    }
+    &__info{
+        height: 230px;
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: #22262A;
+        }
+        h3{
+            font-size: 80px;
+            font-weight: 700;
+            margin: 18px 0;
+            color: #22262A;
+        }
+        button{
+            margin-top: 27px;
+            margin-right: 34px;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            background: #22262A;
+            border: none;
+            height: 35px;
+            width: 147px;
+        }
+    }
+}
